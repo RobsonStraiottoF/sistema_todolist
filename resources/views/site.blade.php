@@ -28,13 +28,13 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="{{route('home')}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre-nos.html">Sobre nós</a>
+                        <a class="nav-link" href="{{route('sobre-nos')}}">Sobre nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="planos.html">Planos</a>
+                        <a class="nav-link" href="{{route('planos')}}">Planos</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
